@@ -5,7 +5,7 @@ n) para indicar se o n´umero ´e perfeito.*/
 #include <stdio.h>
 
 int somaDiv(int n, int d){
-     if (d > n / 2){
+    if (d > n / 2){
         return 0;
     }
     else{
@@ -33,6 +33,7 @@ int ehPerfeito(int n){
 }
 
 int main(){
+    
     int nunteste;
 
     printf("digite o inicio: ");
